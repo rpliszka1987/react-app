@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import Footer from "./Footer"
-import Form from "./Form"
+import Footer from "./Footer";
+import Form from "./Form";
+import NameForm from "./NameForm";
 import AppTwo from "./AppTwo";
 import reportWebVitals from "./reportWebVitals";
 
@@ -13,6 +14,7 @@ root.render(
     <App />
     <AppTwo />
     <Form />
+    <NameForm />
     <Footer />
   </React.StrictMode>
 );
