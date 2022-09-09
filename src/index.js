@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Form from "./Form";
 import NameForm from "./NameForm";
 import AppTwo from "./AppTwo";
+import FormState from "./FormState";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -15,6 +16,7 @@ root.render(
     <AppTwo />
     <Form />
     <NameForm />
+    <FormState />
     <Footer />
   </React.StrictMode>
 );
