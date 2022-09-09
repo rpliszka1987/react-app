@@ -8,6 +8,7 @@ import NameForm from "./NameForm";
 import AppTwo from "./AppTwo";
 import FormState from "./FormState";
 import FormCustom from "./CustomHook"
+import CustomNameForm from "./CustomNameForm"
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -19,6 +20,7 @@ root.render(
     <NameForm />
     <FormState />
     <FormCustom />
+    <CustomNameForm />
     <Footer />
   </React.StrictMode>
 );
