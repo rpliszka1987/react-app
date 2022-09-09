@@ -1,7 +1,7 @@
 // import the useState hook
 import { useState } from "react";
 
-function Form() {
+function FormState() {
     // Create variable to store the initial state of the form event
   const [title, setTitle] = useState("");
   const [color, setColor] = useState("#000000");
@@ -31,4 +31,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default FormState;
